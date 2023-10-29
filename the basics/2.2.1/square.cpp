@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 double square(double x)
 {
@@ -7,7 +8,7 @@ double square(double x)
 
 void print_square(double x)
 {
-    std::cout << "The square of " << x << " is " << square(x) << "\n";
+    cout << "The square of " << x << " is " << square(x) << "\n";
 }
 
 int main()
